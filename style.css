@@ -89,6 +89,7 @@ button {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 .cards {
@@ -96,14 +97,70 @@ button {
     font-weight: 500;
 
     display: flex;
-    justify-content: space-evenly;
-    gap: 100px;
+    justify-content: center;
+    gap: 1px;
+
+    text-align: center;
+
+    padding: 8px 200px; 
 }
 
-.info-inner div {
-    height: 50px;
-    width: 50px;
-    border: 2px solid red;
+
+.info-img {
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+
+    padding: 75px 150px;
+    margin: 20px;
+    
+}
+
+.quote {
+    background-color: #e5e7eb;
+
+    color: #1f2937;
+    font-size: 36px;
+
+    padding: 50px 200px; 
+}
+
+.quote-sig {
+    text-align: right;
+    
+}
+
+.call {
+    text-align: center;
+
+}
+
+.call-banner {
+    display: flex;
+    justify-content: center;
+    gap :20px;
+
+    color: white;
+    background-color: #3882f6;
+    margin: 50px 500px;
+    border-radius: 15px;
+    padding: 8px;
+
+    text-align: left;
+}
+
+.call1 {
+    font-size: 18px;
+}
+
+.call2 {
+    font-size: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 8px;
 }
 
 
